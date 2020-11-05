@@ -9,7 +9,8 @@ A semantic version is a number that consists of three numbers separated by a per
 | The first number is a Major change,meaning it has a breaking change. | The second number is a Minor change, meaning it adds functionality.  |The third number is a Patch change, meaning it includes a bug fix. |
 
 ```
-It is easier to look at semantic versioning as Breaking . Feature . Fix. It is a more precise way of describing a version number that doesn’t leave any room for interpretation.
+It is easier to look at semantic versioning as Breaking . Feature . Fix. 
+It is a more precise way of describing a version number that doesn’t leave any room for interpretation.
 ```
 
 # Commit format
