@@ -43,14 +43,14 @@ optional scope, and a subject.
 The header’s type is a mandatory field that tells what impact the commit
 contents have on the next version. It has to be one of the following types:
 
-* **feat**: New feature
-* **fix**: Bug fix
+* **feature**: New feature
+* **bugfix**: Bug fix
 * **docs**: Change to the documentation (also used for spelling and grammar
   corrections)
 * **style**: Changes that do not affect the meaning of the code (e.g.
   white-space, formatting, missing semi-colons, etc.)
 * **refactor**: Changes that neither fix a bug nor add a feature
-* **perf**: Change that improves performance
+* **performance**: Change that improves performance
 * **test**: Add missing tests or corrections to existing ones
 * **chore**: Changes to the build process or auxiliary tools and libraries, such
   as generating documentation
