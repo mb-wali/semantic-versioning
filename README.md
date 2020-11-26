@@ -52,8 +52,8 @@ contents have on the next version. It has to be one of the following types:
 * **refactor**: Changes that neither fix a bug nor add a feature
 * **performance**: Change that improves performance
 * **test**: Add missing tests or corrections to existing ones
-* **chore**: Changes to the build process or auxiliary tools and libraries, such
-  as generating documentation
+* **build**: Changes to the build process or dependencies
+* **ci**: Changes to our CI configuration files and scripts
 
 The scope is a grouping property that specifies what subsystem the commit is
 related to, like an API, or the dashboard of an app, or user accounts, etc. If
