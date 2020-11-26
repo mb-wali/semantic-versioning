@@ -71,10 +71,39 @@ are a few rules when writing one:
 
 ### The commit body.
 
-Just like the header subject, use the imperative, present tense for the body. It
-should include the motivation for the change and contrast this with previous
-behavior.
 
+Just like the header subject, use the imperative, present tense for the body.
+
+The body of the commit message should elaborate the why of the necessity of the
+commit.
+
+For the type feature:
+
+* [*mandatory*] describe the problem the feature solves
+* [*mandatory*] describe how the feature is working
+
+For the type bugfix:
+
+* [*mandatory*] describe the bug
+* [*mandatory*] describe how it is solved by this commit
+* [*optional*] describe why this solution is implemented and not possible other
+  solutions
+
+For the type refactor:
+
+* [*mandatory*] describe the reason of the refactoring
+* [*mandatory*] describe why it is easier to use/read now
+
+For the type performance:
+
+* [*mandatory*] describe the bottleneck
+* [*mandatory*] describe why it is faster now
+* [*optional*] describe why this solution is implemented and not possible other
+  solutions
+
+For the types test, build and ci:
+
+* [*mandatory*] describe the solved problem
 
 ### The commit footer
 
