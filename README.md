@@ -45,7 +45,8 @@ contents have on the next version. It has to be one of the following types:
 
 * **feat**: New feature
 * **fix**: Bug fix
-* **docs**: Change to the documentation
+* **docs**: Change to the documentation (also used for spelling and grammar
+  corrections)
 * **style**: Changes that do not affect the meaning of the code (e.g.
   white-space, formatting, missing semi-colons, etc.)
 * **refactor**: Changes that neither fix a bug nor add a feature
