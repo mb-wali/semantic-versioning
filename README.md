@@ -20,10 +20,11 @@ It is a more precise way of describing a version number that doesn’t leave any
 To make sure that we are releasing the correct version — by correctly
 incrementing the semantic version number — we need to standardize our commit
 messages. By having a standardized format for commit messages, we can know when
-to increment which number and easily generate a release note. We are going to be
-using the [Angular commit message
-convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit),
-although we can change this later if you prefer something else.
+to increment which number and easily generate a release note.
+
+We use [Angular commit message
+convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
+as our starting point and extend it in some parts.
 
 It goes like this:
 ```
