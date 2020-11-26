@@ -66,7 +66,9 @@ instead.
   “changes”)
 * Lowercase the first letter on the first word.
 * Leave out a period (.) at the end.
-* Avoid writing subjects longer than 80 charactersThe commit body.
+* Avoid writing subjects longer than 80 characters
+
+### The commit body.
 
 Just like the header subject, use the imperative, present tense for the body. It
 should include the motivation for the change and contrast this with previous
