@@ -115,4 +115,4 @@ Breaking change information should start with ```BREAKING CHANGE:``` followed by
 a space or two new lines. The rest of the commit message goes here.
 
 
-copyrights &copy; Marko Ilic, Mojib Wali
+copyrights &copy; Marko Ilic, Mojib Wali, Christoph Ladurner
