@@ -32,11 +32,11 @@ It goes like this:
 <optional footer>
 ```
 
-### Each commit message consists of a header, a body, and a footer.
+## Each commit message consists of a header, a body, and a footer.
 
 ![](images/commit_header.png?raw=true)
 
-## The commit header
+### The commit header
 The header is mandatory. It has a special format that includes a type, an
 optional scope, and a subject.
 
@@ -60,7 +60,8 @@ related to, like an API, or the dashboard of an app, or user accounts, etc. If
 the commit modifies more than one subsystem, then we can use an asterisk (*)
 instead.
 
-### The header subject should hold a short description of what has been done. There are a few rules when writing one:
+The header subject should hold a short description of what has been done. There
+are a few rules when writing one:
 
 * Use the imperative, present tense (e.g. “change” instead of “changed” or
   “changes”)
@@ -75,7 +76,7 @@ should include the motivation for the change and contrast this with previous
 behavior.
 
 
-## The commit footer
+### The commit footer
 
 The footer should contain any information about **breaking changes** and is also
 the place to reference issues that this commit closes.
