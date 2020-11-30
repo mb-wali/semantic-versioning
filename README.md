@@ -50,6 +50,8 @@ contents have on the next version. It has to be one of the following types:
   corrections)
 * **style**: Changes that do not affect the meaning of the code (e.g.
   white-space, formatting, missing semi-colons, etc.)
+* **modification**: Changes that neither fix a bug nor add a feature (e.g. 
+Changes in ui-text, placeholder, names, fields)
 * **refactor**: Changes that neither fix a bug nor add a feature
 * **performance**: Change that improves performance
 * **test**: Add missing tests or corrections to existing ones
