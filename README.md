@@ -117,4 +117,22 @@ Breaking change information should start with ```BREAKING CHANGE:``` followed by
 a space or two new lines. The rest of the commit message goes here.
 
 
+### Example
+
+```git
+git commit -m "feature(dev): enable flask-debugtoolbar." -m "
+  *This closes #12." -m "docs(todo): add to documentation."
+  
+```
+
+*commit header*
+```feature(dev): enable flask-debugtoolbar.```
+
+*commit body* 
+```* This closes #12.```
+
+*commit footer*
+```Todo(docs): add to documentation.```
+
+
 copyrights &copy; Marko Ilic, Mojib Wali, Christoph Ladurner
