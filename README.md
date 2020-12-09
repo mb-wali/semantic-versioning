@@ -119,9 +119,16 @@ a space or two new lines. The rest of the commit message goes here.
 
 ### Example
 
+Code changes 
+```diff
+- DEBUG_TB_ENABLED=False
++ DEBUG_TB_ENABLED=True
+```
+
+Git commit 
 ```git
 git commit -m "feature(dev): enable flask-debugtoolbar." -m "
-  *This closes #12." -m "docs(todo): add to documentation."
+  *docs(todo): add to documentation." -m "This closes #12."
   
 ```
 
@@ -129,10 +136,10 @@ git commit -m "feature(dev): enable flask-debugtoolbar." -m "
 ```feature(dev): enable flask-debugtoolbar.```
 
 *commit body* 
-```* This closes #12.```
+```Todo(docs): add to documentation.```
 
 *commit footer*
-```Todo(docs): add to documentation.```
+```This closes #12.```
 
 
 copyrights &copy; Marko Ilic, Mojib Wali, Christoph Ladurner
